@@ -1,0 +1,9 @@
+step,seconds_min,seconds_mean
+"Fisher matrix, single frame (4 modes)",0.16,0.17
+"Fisher matrix, 5-frame diversity",0.96,1.06
+"Non-blind estimate, 1 frame",14.3,14.3
+"Non-blind estimate, 5-frame diversity",52.14,52.14
+"Blind estimate, 3-frame diversity (BioSR ER)",17.89,17.89
+"CoCoA differential estimate (2 stacks, 7 modes)",52.85,52.85
+"3D estimate, 9-plane stack 128x128",9.42,9.42
+"Richardson-Lucy, 20 iterations (CPU)",0.04,0.04

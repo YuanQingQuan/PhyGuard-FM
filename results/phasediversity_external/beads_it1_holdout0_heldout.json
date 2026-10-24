@@ -1,0 +1,163 @@
+{
+  "dataset": "beads",
+  "iteration": 1,
+  "holdout": 0,
+  "train": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "signal_photons": 6938.281772089676,
+  "background_photons": 132.0,
+  "truth_wavefront_rms_nm": 199.1690791933033,
+  "rows": [
+    {
+      "M": 4,
+      "modes": [
+        "astig_y",
+        "defocus",
+        "astig_x",
+        "trefoil_y"
+      ],
+      "gate": true,
+      "train_base": -2427.6416015625,
+      "held_base": -2467.850830078125,
+      "train_blind": -2427.757568359375,
+      "held_blind": -2457.270263671875,
+      "wfe_base": 170.4696502685547,
+      "wfe_blind": 107.2295114451662,
+      "theta": {
+        "astig_y": 0.031883109360933304,
+        "defocus": -0.0444469153881073,
+        "astig_x": -0.010895192623138428,
+        "trefoil_y": 0.564116358757019
+      }
+    },
+    {
+      "M": 7,
+      "modes": [
+        "astig_y",
+        "defocus",
+        "astig_x",
+        "trefoil_y",
+        "coma_y",
+        "coma_x",
+        "trefoil_x"
+      ],
+      "gate": true,
+      "train_base": -2427.72509765625,
+      "held_base": -2466.776123046875,
+      "train_blind": -2427.876953125,
+      "held_blind": -2461.361083984375,
+      "wfe_base": 180.9935760498047,
+      "wfe_blind": 123.19416848535167,
+      "theta": {
+        "astig_y": 0.045620113611221313,
+        "defocus": -0.039002109318971634,
+        "astig_x": 0.001394961029291153,
+        "trefoil_y": 0.6039847731590271,
+        "coma_y": 0.03445126861333847,
+        "coma_x": -0.1321980208158493,
+        "trefoil_x": 0.19671066105365753
+      }
+    },
+    {
+      "M": 10,
+      "modes": [
+        "astig_y",
+        "defocus",
+        "astig_x",
+        "trefoil_y",
+        "coma_y",
+        "coma_x",
+        "trefoil_x",
+        "quad4_y",
+        "astig2_y",
+        "spherical"
+      ],
+      "gate": true,
+      "train_base": -2427.72509765625,
+      "held_base": -2466.776123046875,
+      "train_blind": -2427.89306640625,
+      "held_blind": -2460.7666015625,
+      "wfe_base": 180.9935760498047,
+      "wfe_blind": 122.87772806937221,
+      "theta": {
+        "astig_y": 0.03146256133913994,
+        "defocus": -0.03490641713142395,
+        "astig_x": -0.004028132185339928,
+        "trefoil_y": 0.6016030311584473,
+        "coma_y": 0.017268957570195198,
+        "coma_x": -0.13417670130729675,
+        "trefoil_x": 0.19925889372825623,
+        "quad4_y": -0.015479032881557941,
+        "astig2_y": 0.035337500274181366,
+        "spherical": -0.025927197188138962
+      }
+    },
+    {
+      "M": 18,
+      "modes": [
+        "astig_y",
+        "defocus",
+        "astig_x",
+        "trefoil_y",
+        "coma_y",
+        "coma_x",
+        "trefoil_x",
+        "quad4_y",
+        "astig2_y",
+        "spherical",
+        "astig2_x",
+        "quad4_x",
+        "penta5_y",
+        "tref3_y",
+        "coma2_y",
+        "coma2_x",
+        "tref3_x",
+        "penta5_x"
+      ],
+      "gate": true,
+      "train_base": -2427.658935546875,
+      "held_base": -2469.3447265625,
+      "train_blind": -2428.08056640625,
+      "held_blind": -2467.32763671875,
+      "wfe_base": 199.16908264160156,
+      "wfe_blind": 169.41431244167538,
+      "theta": {
+        "astig_y": 0.05025546997785568,
+        "defocus": -0.0289921835064888,
+        "astig_x": -0.007483769673854113,
+        "trefoil_y": 0.7587525248527527,
+        "coma_y": 0.012210091575980186,
+        "coma_x": -0.20734930038452148,
+        "trefoil_x": 0.23533602058887482,
+        "quad4_y": 0.00709177739918232,
+        "astig2_y": -0.0002971868962049484,
+        "spherical": -0.03507247567176819,
+        "astig2_x": -0.011245888657867908,
+        "quad4_x": -0.027445506304502487,
+        "penta5_y": 0.15605665743350983,
+        "tref3_y": -0.1586722731590271,
+        "coma2_y": -0.09227785468101501,
+        "coma2_x": 0.14074087142944336,
+        "tref3_x": -0.33440250158309937,
+        "penta5_x": 0.05735661834478378
+      }
+    }
+  ],
+  "settings": {
+    "dataset": "beads",
+    "iteration": 1,
+    "holdout": 0,
+    "n_outer": 40,
+    "n_inner": 12,
+    "restarts": 2,
+    "lr_x": 0.05,
+    "lr_theta": 0.05,
+    "tv_weight": 0.01,
+    "seed": 0,
+    "outdir": "results/phasediversity_external"
+  }
+}

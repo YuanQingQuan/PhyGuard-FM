@@ -1,0 +1,13 @@
+torch>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-image>=0.21
+pandas>=2.0
+matplotlib>=3.7
+PyYAML>=6.0
+tifffile>=2023.7.10
+Pillow>=10.0
+
+mrcfile>=1.4
+
+pytest>=7.0

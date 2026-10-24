@@ -1,0 +1,48 @@
+{
+  "source_repository": "ND-HowardGroup/Instant-Image-Denoising",
+  "dataset": "FMD / fluorescence microscopy test examples",
+  "pairs": [
+    {
+      "id": "Confocal_FISH_3",
+      "modality": "confocal fluorescence microscopy",
+      "sample": "Zebrafish / FISH",
+      "raw": {
+        "url": "https://raw.githubusercontent.com/ND-HowardGroup/Instant-Image-Denoising/master/Plugins/Test_images/2D_images/Raw_Images/Confocal_FISH_3.png",
+        "git_blob_sha": "9bce451463e59e6a9dd31832ffe36d88113b7e7b",
+        "size_bytes": 187580
+      },
+      "reference": {
+        "url": "https://raw.githubusercontent.com/ND-HowardGroup/Instant-Image-Denoising/master/Plugins/Test_images/2D_images/Target(ground_truth)_Images/gt_Confocal_FISH_3.png",
+        "git_blob_sha": "c31bd02cf7715bc65b12a9174c0cf0fe9cc36963",
+        "size_bytes": 132980,
+        "averaged_frames": 50
+      },
+      "upstream_denoised": {
+        "url": "https://raw.githubusercontent.com/ND-HowardGroup/Instant-Image-Denoising/master/Plugins/Test_images/2D_images/Image_Denoising_results/denoised_confocal_fish3.png",
+        "git_blob_sha": "99e954a6001fd3fa798e89bed59c35f7d2e570b4",
+        "size_bytes": 106272
+      }
+    },
+    {
+      "id": "WideField_BPAE",
+      "modality": "wide-field fluorescence microscopy",
+      "sample": "BPAE",
+      "raw": {
+        "url": "https://raw.githubusercontent.com/ND-HowardGroup/Instant-Image-Denoising/master/Plugins/Test_images/2D_images/Raw_Images/WideField_BPAE_raw_rgb_new1.png",
+        "git_blob_sha": "7993ff18ad39ceace626807c3d836ff152f90d80",
+        "size_bytes": 693588
+      },
+      "reference": {
+        "url": "https://raw.githubusercontent.com/ND-HowardGroup/Instant-Image-Denoising/master/Plugins/Test_images/2D_images/Target(ground_truth)_Images/WideField_BPAE_gt_rgb_new1.png",
+        "git_blob_sha": "5f47624c790a02826412d8725fad13b71e70473c",
+        "size_bytes": 601958
+      },
+      "upstream_denoised": {
+        "url": "https://raw.githubusercontent.com/ND-HowardGroup/Instant-Image-Denoising/master/Plugins/Test_images/2D_images/Image_Denoising_results/WideField_BPAE_denoised_rgb_new1.png",
+        "git_blob_sha": "34ea1c7d87c5c5f2a6d22a3611d8017336a8be8b",
+        "size_bytes": 494080
+      }
+    }
+  ],
+  "citation": "Mannam, Zhang, Howard et al.; FMD dataset / Instant-Image-Denoising repository. Original FMD paper: A Poisson-Gaussian Denoising Dataset with Real Fluorescence Microscopy Images, CVPR 2019."
+}

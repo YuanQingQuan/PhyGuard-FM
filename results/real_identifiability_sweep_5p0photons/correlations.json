@@ -1,0 +1,32 @@
+{
+  "n_operators": 24,
+  "seeds_per_operator": 5,
+  "photons_per_pixel": 5.0,
+  "spearman": {
+    "c_gamma": {
+      "rho_auc": 0.7397739964498348,
+      "p_auc": 3.6060755723655255e-05,
+      "rho_mse_reduction": 0.6988688460579027,
+      "p_mse_reduction": 0.00014525073915151642
+    },
+    "effective_rank_fraction": {
+      "rho_auc": 0.6799999999999999,
+      "p_auc": 0.00025659207303060884,
+      "rho_mse_reduction": 0.6886956521739129,
+      "p_mse_reduction": 0.00019842330475024667
+    },
+    "null_fraction": {
+      "rho_auc": -0.7397739964498348,
+      "p_auc": 3.6060755723655255e-05,
+      "rho_mse_reduction": -0.6988688460579027,
+      "p_mse_reduction": 0.00014525073915151642
+    },
+    "condition_proxy": {
+      "rho_auc": 0.003478260869565217,
+      "p_auc": 0.9871304734643621,
+      "rho_mse_reduction": -0.26347826086956516,
+      "p_mse_reduction": 0.21350236658523816
+    }
+  },
+  "controlled_degradation": true
+}

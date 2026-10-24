@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated paper (see preferred-citation)."
+title: "PhyGuard-FM: measurement-grounded verification for photon-limited fluorescence microscopy restoration"
+type: software
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/YuanQingQuan/PhyGuard-FM"
+keywords:
+  - fluorescence microscopy
+  - optical identifiability
+  - Fisher information
+  - aberration calibration
+  - phase diversity
+  - photon-limited imaging
+  - foundation-model verification
+authors:
+  - family-names: Yuan
+    given-names: Qingquan
+    affiliation: "University of Science and Technology Beijing, School of Mechanical Engineering, Beijing, China"
+  - family-names: Yang
+    given-names: Xuhao
+    affiliation: "University of Science and Technology Beijing, School of Mechanical Engineering, Beijing, China"
+  - family-names: Zhang
+    given-names: Haonan
+    affiliation: "University of Science and Technology Beijing, School of Mechanical Engineering, Beijing, China"
+preferred-citation:
+  type: article
+  title: "Measurement-driven aberration calibration and a Fisher-information theory of optical identifiability for photon-limited fluorescence microscopy"
+  authors:
+    - family-names: Yuan
+      given-names: Qingquan
+    - family-names: Yang
+      given-names: Xuhao
+    - family-names: Zhang
+      given-names: Haonan
+  journal: "Optical Engineering"
+  publisher:
+    name: "SPIE"
+  year: 2026

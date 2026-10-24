@@ -1,0 +1,24 @@
+{
+  "n_operators": 24,
+  "seeds_per_operator": 5,
+  "spearman": {
+    "photons_2": {
+      "spearman_effrank_vs_auc": 0.5539130434782608,
+      "p": 0.0049799481029909175,
+      "spearman_cgamma_vs_auc": 0.9684714297220101,
+      "p_cgamma": 9.113512371781512e-15
+    },
+    "photons_5": {
+      "spearman_effrank_vs_auc": 0.5008695652173912,
+      "p": 0.012665278925668667,
+      "spearman_cgamma_vs_auc": 0.9267232226033243,
+      "p_cgamma": 8.008625731754073e-11
+    },
+    "photons_10": {
+      "spearman_effrank_vs_auc": 0.437391304347826,
+      "p": 0.03256619344201188,
+      "spearman_cgamma_vs_auc": 0.9088932591463856,
+      "p_cgamma": 8.07606254092899e-10
+    }
+  }
+}

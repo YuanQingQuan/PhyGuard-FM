@@ -1,0 +1,95 @@
+{
+  "predicted_crossing_rms_waves": null,
+  "frozen_utc": "2026-09-26T15:59:51.065842+00:00",
+  "per_mode": {
+    "defocus": {
+      "empirical_crossing_plain_rms": 0.2012015004352811,
+      "empirical_crossing_signaware_rms": 0.2024875928381127,
+      "rmse_by_level": {
+        "0.05": 0.00234,
+        "0.15": 0.00265,
+        "0.3": 0.00501,
+        "0.5": 0.31394,
+        "0.75": 0.78986,
+        "1.0": 0.89866
+      },
+      "signaware_rmse_by_level": {
+        "0.05": 0.00207,
+        "0.15": 0.00265,
+        "0.3": 0.00501,
+        "0.5": 0.28669,
+        "0.75": 0.67408,
+        "1.0": 0.62921
+      },
+      "ratio_plain": null,
+      "ratio_signaware": null
+    },
+    "astig_x": {
+      "empirical_crossing_plain_rms": 0.18911076099460816,
+      "empirical_crossing_signaware_rms": 0.19345210440875912,
+      "rmse_by_level": {
+        "0.05": 0.00517,
+        "0.15": 0.00703,
+        "0.3": 0.01612,
+        "0.5": 0.21786,
+        "0.75": 0.78458,
+        "1.0": 0.85325
+      },
+      "signaware_rmse_by_level": {
+        "0.05": 0.00464,
+        "0.15": 0.00703,
+        "0.3": 0.01612,
+        "0.5": 0.17113,
+        "0.75": 0.36249,
+        "1.0": 0.59222
+      },
+      "ratio_plain": null,
+      "ratio_signaware": null
+    },
+    "coma_x": {
+      "empirical_crossing_plain_rms": 0.20226567497318987,
+      "empirical_crossing_signaware_rms": 0.21311754475714942,
+      "rmse_by_level": {
+        "0.05": 0.0085,
+        "0.15": 0.00824,
+        "0.3": 0.00683,
+        "0.5": 0.22956,
+        "0.75": 0.25971,
+        "1.0": 0.46127
+      },
+      "signaware_rmse_by_level": {
+        "0.05": 0.0085,
+        "0.15": 0.00824,
+        "0.3": 0.00683,
+        "0.5": 0.13407,
+        "0.75": 0.16609,
+        "1.0": 0.23497
+      },
+      "ratio_plain": null,
+      "ratio_signaware": null
+    },
+    "spherical": {
+      "empirical_crossing_plain_rms": 0.19341064858895196,
+      "empirical_crossing_signaware_rms": 0.22556951034534628,
+      "rmse_by_level": {
+        "0.05": 0.00785,
+        "0.15": 0.00408,
+        "0.3": 0.00411,
+        "0.5": 0.7587,
+        "0.75": 1.18898,
+        "1.0": 1.45052
+      },
+      "signaware_rmse_by_level": {
+        "0.05": 0.00785,
+        "0.15": 0.00408,
+        "0.3": 0.00411,
+        "0.5": 0.10121,
+        "0.75": 0.16752,
+        "1.0": 0.33768
+      },
+      "ratio_plain": null,
+      "ratio_signaware": null
+    }
+  },
+  "verdict": "FALSIFIED_or_partial"
+}

@@ -1,0 +1,50 @@
+{
+  "frozen_utc": "2026-09-26T15:59:51.065842+00:00",
+  "script_sha256": "5739ad9cda14a226c4628dc1e1f724344a59d8f2767b44a8a4758e5cead9a206",
+  "git_commit": null,
+  "model": {
+    "na": 1.1,
+    "wavelength_nm": 515.0,
+    "pixel_nm": 86.0,
+    "nz": 9,
+    "dz_nm": 200.0,
+    "kernel": 41,
+    "photons": 30.0,
+    "background": 4.5,
+    "read_noise": 0.15,
+    "modes": [
+      "defocus",
+      "astig_x",
+      "coma_x",
+      "spherical"
+    ],
+    "threshold_waves": 0.05,
+    "rms_factors": [
+      0.5773502691896258,
+      0.4082482904638631,
+      0.35355339059327373,
+      0.4472135954999579
+    ],
+    "structure": "CoCoA ref_no_aberration.tif, planes zi-4..zi+4, crop 160:288 (128x128), per-plane 0.5/99.5 percentile"
+  },
+  "swept_variable": "per-mode uniform draw U(-mag, mag), 5 seeds; RMS by Eq. (9)",
+  "predicted_crossing_rms_waves": null,
+  "curve_rms": [
+    0.025242050359385253,
+    0.07572615107815577,
+    0.15145230215631153,
+    0.25242050359385254,
+    0.37863075539077884,
+    0.5048410071877051
+  ],
+  "curve_sigma_max": [
+    0.007300400346144591,
+    0.00703416835854723,
+    0.009028884018914184,
+    0.012343940800784953,
+    0.015395811153918179,
+    0.01634278398564563
+  ],
+  "derivative_check_rel_err": 8.394078145357436e-08,
+  "wall_s": 32.8
+}

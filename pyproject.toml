@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phyguard-fm"
+version = "0.1.0"
+description = "Fluorescence microscopy restoration"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = [
+  "fluorescence microscopy",
+  "optical identifiability",
+  "Fisher information",
+  "aberration calibration",
+  "phase diversity",
+  "photon-limited imaging",
+]
+authors = [
+  { name = "Qingquan Yuan" },
+  { name = "Xuhao Yang" },
+  { name = "Haonan Zhang" },
+]
+dependencies = [
+  "torch>=2.0",
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "scikit-image>=0.21",
+  "pandas>=2.0",
+  "PyYAML>=6.0",
+  "tifffile>=2023.7.10",
+  "Pillow>=10.0",
+  "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+data = ["mrcfile>=1.4"]
+test = ["pytest>=7.0"]
+
+[project.urls]
+Repository = "https://github.com/Rimagination/PhyGuard-FM"
+
+[tool.setuptools.packages.find]
+include = ["phyguard*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

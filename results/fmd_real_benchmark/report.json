@@ -1,0 +1,67 @@
+{
+  "pairs": {
+    "Confocal_FISH_3": {
+      "modality": "confocal",
+      "task": "dn",
+      "structure": "NCC",
+      "sample": "fixed zebrafish embryos",
+      "indicator": "eGFP (GFP)",
+      "microscope_text": "Nikon A1R-MP laser scanning confocal microscope equipped with a Nikon Apo LWD 40x, 1.15 NA water immersion objective. Excitation wavelength 488 nm, 10% laser power, 140 PMT gain",
+      "pixel_size_nm": 300.0,
+      "wavelength_nm": 488.0,
+      "na": 1.15
+    },
+    "WideField_BPAE": {
+      "modality": "wide-field",
+      "task": "dn",
+      "structure": "BPAE cell",
+      "sample": "fixed bovine pulmonary artery endothelial (BPAE) cell",
+      "indicator": "DAPI / FITC / TRITC",
+      "microscope_text": "wide-field fluorescence microscope with excitation numerical aperture of 1.41, detection numerical aperture of 1.3",
+      "pixel_size_nm": 100.0,
+      "wavelength_nm": 520.0,
+      "na": 1.3
+    }
+  },
+  "track1_metrics": [
+    {
+      "pair": "Confocal_FISH_3",
+      "modality": "confocal",
+      "raw_psnr": 22.7600164907,
+      "raw_ssim": 0.4319632409,
+      "fluoresfm_psnr": 21.7442581449,
+      "fluoresfm_ssim": 0.6739478981,
+      "upstream_denoised_psnr": 31.2833139099,
+      "upstream_denoised_ssim": 0.8958418114,
+      "blind_snr_proxy_db": 12.0527629712,
+      "blind_hf_noise_std": 0.0285365246
+    },
+    {
+      "pair": "WideField_BPAE",
+      "modality": "wide-field",
+      "raw_psnr": 18.0835097988,
+      "raw_ssim": 0.3269462524,
+      "fluoresfm_psnr": 16.9848596269,
+      "fluoresfm_ssim": 0.5313698302,
+      "upstream_denoised_psnr": 32.1452519187,
+      "upstream_denoised_ssim": 0.8320964682,
+      "blind_snr_proxy_db": 10.6017924349,
+      "blind_hf_noise_std": 0.0296738222
+    }
+  ],
+  "track2_correlations": [
+    {
+      "pair": "Confocal_FISH_3",
+      "spearman_photons_vs_auc": 0.8911951994917513,
+      "p": 7.1961892369954e-13
+    },
+    {
+      "pair": "WideField_BPAE",
+      "spearman_photons_vs_auc": 0.9802460675469076,
+      "p": 8.3503473143595e-25
+    }
+  ],
+  "track1_measured_detector_noise": true,
+  "track2_controlled_degradation": true,
+  "weights_frozen": true
+}

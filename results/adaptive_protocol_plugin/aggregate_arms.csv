@@ -1,0 +1,7 @@
+scale,arm,MAE,RMSE,worst-mode MAE,per-seed MAE spread
+large (|theta|~0.25 w),adaptive (oracle x),0.088,0.0973,0.1066,0.0029
+large (|theta|~0.25 w),adaptive (blind x-hat),0.0812,0.0851,0.087,0.0088
+large (|theta|~0.25 w),fixed uniform,0.0966,0.1101,0.1609,0.0226
+small (|theta|~0.05 w),adaptive (oracle x),0.0767,0.0881,0.1205,0.0101
+small (|theta|~0.05 w),adaptive (blind x-hat),0.0767,0.0881,0.1205,0.0101
+small (|theta|~0.05 w),fixed uniform,0.0725,0.0783,0.1064,0.0112

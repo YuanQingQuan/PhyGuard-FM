@@ -1,0 +1,7 @@
+# Normalise line endings so the tree is checkout-identical on Windows, macOS
+# and Linux: text files are stored with LF in the repository.
+* text=auto eol=lf
+*.png binary
+*.npz binary
+*.npy binary
+*.pt binary

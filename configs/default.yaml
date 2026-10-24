@@ -1,0 +1,22 @@
+seed: 20260808
+optics:
+  wavelength_nm: 520.0
+  na: 1.2
+  pixel_size_nm: 100.0
+  kernel_size: 65
+  aberrations_waves: {}
+measurement:
+  signal_photons: 10.0
+  background_photons: 1.0
+  read_noise_std: 0.5
+  downsample: 1
+verification:
+  local_window: 9
+  temperature: 1.0
+  conservative_bias: 0.15
+identifiability:
+  gamma: 0.05
+third_party:
+  fluoresfm_repo: third_party/fluoresfm
+  unimie_repo: third_party/UniMIE
+  caspi_repo: third_party/CASPI

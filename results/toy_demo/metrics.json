@@ -1,0 +1,34 @@
+{
+  "observation": {
+    "psnr": 22.85980134160177,
+    "ssim": 0.3294912869120965
+  },
+  "physics_candidate": {
+    "psnr": 25.38134896169828,
+    "ssim": 0.4073147683343566,
+    "hallucination_energy": 2.511062666599173e-05
+  },
+  "foundation_candidate": {
+    "psnr": 27.8793799575189,
+    "ssim": 0.9630029212887066,
+    "hallucination_energy": 0.0011597004486247897
+  },
+  "fused": {
+    "psnr": 30.96686244263575,
+    "ssim": 0.6343537258758672,
+    "hallucination_energy": 4.677129254559986e-06
+  },
+  "blind_stats": {
+    "background_level": 0.0,
+    "high_frequency_noise_std": 0.03225993737578392,
+    "snr_proxy_db": 9.735220724208972,
+    "high_frequency_energy_ratio": 0.3917332990896874
+  },
+  "identifiability": {
+    "c_gamma": 0.50299072265625,
+    "effective_rank_fraction": 0.42994824051856995,
+    "null_fraction": 0.49700927734375,
+    "condition_proxy": 19.977001190185547,
+    "gamma": 0.05
+  }
+}

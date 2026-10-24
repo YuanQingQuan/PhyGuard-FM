@@ -1,0 +1,163 @@
+{
+  "dataset": "cell",
+  "iteration": 1,
+  "holdout": 0,
+  "train": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "signal_photons": 669.7763624784616,
+  "background_photons": 729.0,
+  "truth_wavefront_rms_nm": 219.25235835219652,
+  "rows": [
+    {
+      "M": 4,
+      "modes": [
+        "astig_y",
+        "defocus",
+        "astig_x",
+        "trefoil_y"
+      ],
+      "gate": true,
+      "train_base": -5526.88232421875,
+      "held_base": -5615.091796875,
+      "train_blind": -5526.92138671875,
+      "held_blind": -5614.0859375,
+      "wfe_base": 138.27001953125,
+      "wfe_blind": 59.09202633400392,
+      "theta": {
+        "astig_y": -0.26042214035987854,
+        "defocus": -0.04475601390004158,
+        "astig_x": 0.037889402359724045,
+        "trefoil_y": 0.03193223476409912
+      }
+    },
+    {
+      "M": 7,
+      "modes": [
+        "astig_y",
+        "defocus",
+        "astig_x",
+        "trefoil_y",
+        "coma_y",
+        "coma_x",
+        "trefoil_x"
+      ],
+      "gate": true,
+      "train_base": -5526.85693359375,
+      "held_base": -5615.26171875,
+      "train_blind": -5526.92138671875,
+      "held_blind": -5614.05322265625,
+      "wfe_base": 149.95802307128906,
+      "wfe_blind": 56.96339533446288,
+      "theta": {
+        "astig_y": -0.25079384446144104,
+        "defocus": -0.04282906651496887,
+        "astig_x": 0.0346643403172493,
+        "trefoil_y": 0.025752995163202286,
+        "coma_y": -0.007790201343595982,
+        "coma_x": 0.0059448471292853355,
+        "trefoil_x": -0.02454531006515026
+      }
+    },
+    {
+      "M": 10,
+      "modes": [
+        "astig_y",
+        "defocus",
+        "astig_x",
+        "trefoil_y",
+        "coma_y",
+        "coma_x",
+        "trefoil_x",
+        "quad4_y",
+        "astig2_y",
+        "spherical"
+      ],
+      "gate": true,
+      "train_base": -5526.6318359375,
+      "held_base": -5615.52783203125,
+      "train_blind": -5526.92724609375,
+      "held_blind": -5614.30322265625,
+      "wfe_base": 196.35501098632812,
+      "wfe_blind": 72.44410914854619,
+      "theta": {
+        "astig_y": -0.3085445463657379,
+        "defocus": -0.05711060389876366,
+        "astig_x": 0.04165343940258026,
+        "trefoil_y": 0.012830227613449097,
+        "coma_y": -0.004920587874948978,
+        "coma_x": 0.011910032480955124,
+        "trefoil_x": -0.03600791096687317,
+        "quad4_y": -0.004934058524668217,
+        "astig2_y": 0.09953548014163971,
+        "spherical": 0.02275455743074417
+      }
+    },
+    {
+      "M": 18,
+      "modes": [
+        "astig_y",
+        "defocus",
+        "astig_x",
+        "trefoil_y",
+        "coma_y",
+        "coma_x",
+        "trefoil_x",
+        "quad4_y",
+        "astig2_y",
+        "spherical",
+        "astig2_x",
+        "quad4_x",
+        "penta5_y",
+        "tref3_y",
+        "coma2_y",
+        "coma2_x",
+        "tref3_x",
+        "penta5_x"
+      ],
+      "gate": true,
+      "train_base": -5526.41552734375,
+      "held_base": -5615.38134765625,
+      "train_blind": -5526.92626953125,
+      "held_blind": -5614.37841796875,
+      "wfe_base": 219.25234985351562,
+      "wfe_blind": 77.50746773234145,
+      "theta": {
+        "astig_y": -0.3328109085559845,
+        "defocus": -0.0636080950498581,
+        "astig_x": 0.0029207924380898476,
+        "trefoil_y": 0.032602500170469284,
+        "coma_y": 0.017312902957201004,
+        "coma_x": 0.028184227645397186,
+        "trefoil_x": -0.06276333332061768,
+        "quad4_y": -0.017337681725621223,
+        "astig2_y": 0.06017152965068817,
+        "spherical": 0.012992920354008675,
+        "astig2_x": 0.03624514862895012,
+        "quad4_x": -0.023908156901597977,
+        "penta5_y": -0.010458477772772312,
+        "tref3_y": 0.01417367160320282,
+        "coma2_y": -0.01160439196974039,
+        "coma2_x": -0.0029215440154075623,
+        "tref3_x": -0.00109544163569808,
+        "penta5_x": 0.003196584526449442
+      }
+    }
+  ],
+  "settings": {
+    "dataset": "cell",
+    "iteration": 1,
+    "holdout": 0,
+    "n_outer": 40,
+    "n_inner": 12,
+    "restarts": 2,
+    "lr_x": 0.05,
+    "lr_theta": 0.05,
+    "tv_weight": 0.01,
+    "seed": 0,
+    "outdir": "results/phasediversity_external"
+  }
+}

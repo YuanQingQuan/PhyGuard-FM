@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "device": "NVIDIA laptop GPU (8 GB, CUDA)",
+    "torch": "2.13.0+cu126",
+    "python": "3.13.0",
+    "image_size": "256x256 (BioSR) / 128x128x9 (3D) / 256x256 crop (CoCoA)",
+    "date": "2026-09-24 13:36"
+  },
+  "rows": [
+    {
+      "step": "Fisher matrix, single frame (4 modes)",
+      "seconds_min": 0.16,
+      "seconds_mean": 0.17
+    },
+    {
+      "step": "Fisher matrix, 5-frame diversity",
+      "seconds_min": 0.96,
+      "seconds_mean": 1.06
+    },
+    {
+      "step": "Non-blind estimate, 1 frame",
+      "seconds_min": 14.3,
+      "seconds_mean": 14.3
+    },
+    {
+      "step": "Non-blind estimate, 5-frame diversity",
+      "seconds_min": 52.14,
+      "seconds_mean": 52.14
+    },
+    {
+      "step": "Blind estimate, 3-frame diversity (BioSR ER)",
+      "seconds_min": 17.89,
+      "seconds_mean": 17.89
+    },
+    {
+      "step": "CoCoA differential estimate (2 stacks, 7 modes)",
+      "seconds_min": 52.85,
+      "seconds_mean": 52.85
+    },
+    {
+      "step": "3D estimate, 9-plane stack 128x128",
+      "seconds_min": 9.42,
+      "seconds_mean": 9.42
+    },
+    {
+      "step": "Richardson-Lucy, 20 iterations (CPU)",
+      "seconds_min": 0.04,
+      "seconds_mean": 0.04
+    }
+  ]
+}

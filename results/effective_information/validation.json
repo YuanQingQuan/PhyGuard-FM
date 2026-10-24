@@ -1,0 +1,15 @@
+{
+  "n": 64,
+  "kernel": 11,
+  "s": 20.0,
+  "radius_4": {
+    "K": 49,
+    "K_bruteforce": 49,
+    "max_rel_deviation": 2.316607498295112e-16
+  },
+  "radius_8": {
+    "K": 197,
+    "K_bruteforce": 197,
+    "max_rel_deviation": 5.6248066642386236e-15
+  }
+}

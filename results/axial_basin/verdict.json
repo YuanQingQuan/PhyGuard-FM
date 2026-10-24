@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-27",
+  "script": "experiments/run_basin_diagnosis.py",
+  "classification": "optimization-limited secondary basin (landscape failure)",
+  "evidence": {
+    "not_information_limited": {
+      "fim_at_correct_solution_seed0": {
+        "lambda_min": 3758.8,
+        "crb_diag_max": 0.0162
+      },
+      "fim_at_wrong_solution_seed0": {
+        "lambda_min": 2064.1,
+        "crb_diag_max": 0.022
+      }
+    },
+    "not_iteration_limited": {},
+    "not_data_limited": {},
+    "causally_modulated_by_basin_access": {},
+    "well_structure_seed0": {
+      "barrier_height_per_pixel_nll": 0.06,
+      "wrong_well_excess_on_fixed_counts": 0.0026,
+      "wrong_well_excess_fresh_realizations_mean": 0.003
+    }
+  },
+  "tested_and_refuted_hypothesis": {
+    "refuted": true
+  },
+  "transition_onset": {}
+}

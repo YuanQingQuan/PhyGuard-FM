@@ -1,0 +1,9 @@
+mode,parity,slope,R2,n
+astig_x,even,1.946,0.999,12
+astig_y,even,1.935,0.9986,12
+coma_x,odd,0.291,0.6653,12
+coma_y,odd,0.284,0.6662,12
+defocus,even,1.868,0.994,12
+spherical,even,1.884,0.9952,12
+trefoil_x,odd,0.449,0.7219,12
+trefoil_y,odd,0.446,0.7228,12

@@ -1,0 +1,106 @@
+{
+  "dataset": "beads",
+  "iteration": 1,
+  "modes": [
+    "astig_y",
+    "defocus",
+    "astig_x",
+    "trefoil_y",
+    "coma_y",
+    "coma_x",
+    "trefoil_x",
+    "quad4_y",
+    "astig2_y",
+    "spherical",
+    "astig2_x",
+    "quad4_x",
+    "penta5_y",
+    "tref3_y",
+    "coma2_y",
+    "coma2_x",
+    "tref3_x",
+    "penta5_x"
+  ],
+  "truth_um": {
+    "6": 0.482161,
+    "8": -0.148186,
+    "9": 0.087356,
+    "19": -0.287951
+  },
+  "diversity_offsets": [
+    {},
+    {
+      "astig_x": 1.8796992481203008
+    },
+    {
+      "astig_y": 1.8796992481203008
+    },
+    {
+      "astig_x": -1.8796992481203008
+    },
+    {
+      "astig_y": -1.8796992481203008
+    }
+  ],
+  "theta_est_waves": {
+    "astig_y": 0.038746144622564316,
+    "defocus": -0.024822812527418137,
+    "astig_x": 0.017805689945816994,
+    "trefoil_y": 0.8189199566841125,
+    "coma_y": 0.014276323840022087,
+    "coma_x": -0.24092423915863037,
+    "trefoil_x": 0.23457759618759155,
+    "quad4_y": 0.04540686309337616,
+    "astig2_y": -0.03813529387116432,
+    "spherical": -0.05703165754675865,
+    "astig2_x": 0.0024602655321359634,
+    "quad4_x": -0.030450377613306046,
+    "penta5_y": 0.10563696920871735,
+    "tref3_y": -0.2977535128593445,
+    "coma2_y": -0.029226474463939667,
+    "coma2_x": 0.013194448314607143,
+    "tref3_x": -0.4633873701095581,
+    "penta5_x": 0.0883813351392746
+  },
+  "loss_est": -2436.40673828125,
+  "loss_at_truth": -2436.103515625,
+  "converged": true,
+  "per_mode_error_nm": {
+    "astig_y": 20.612948939204216,
+    "defocus": -13.205736264586449,
+    "astig_x": 9.472627051174642,
+    "trefoil_y": -46.495583044052125,
+    "coma_y": 7.59500428289175,
+    "coma_x": 20.01430476760865,
+    "trefoil_x": 37.4392811717987,
+    "quad4_y": 24.156451165676117,
+    "astig2_y": -20.287976339459423,
+    "spherical": -30.340841814875606,
+    "astig2_x": 1.3088612630963326,
+    "quad4_x": -16.199600890278816,
+    "penta5_y": 56.198867619037635,
+    "tref3_y": -158.40486884117126,
+    "coma2_y": -15.548484414815903,
+    "coma2_x": 7.019446503371,
+    "tref3_x": 41.42891910171511,
+    "penta5_x": 47.018870294094086
+  },
+  "coeff_rms_error_nm": 46.76134858014759,
+  "wavefront_rms_nm_est": 189.24597921456248,
+  "wavefront_rms_nm_truth": 199.1690791933033,
+  "signal_photons": 6938.281772089676,
+  "background_photons": 132.0,
+  "settings": {
+    "dataset": "beads",
+    "iteration": 1,
+    "n_outer": 60,
+    "n_inner": 12,
+    "restarts": 3,
+    "lr_x": 0.05,
+    "lr_theta": 0.05,
+    "tv_weight": 0.01,
+    "modes": "all",
+    "seed": 0,
+    "outdir": "results/phasediversity_external"
+  }
+}

@@ -1,0 +1,15 @@
+structures:
+  - ER
+  - CCP
+  - F-actin
+  - MT
+attacks:
+  - correct
+  - swap_structure
+  - remove_structure
+  - corrupt_microscope
+primary_readouts:
+  - measurement_support
+  - morphology_error
+  - psnr
+  - msssim

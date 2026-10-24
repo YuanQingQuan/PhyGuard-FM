@@ -1,0 +1,19 @@
+{
+  "fd_vs_analytic_scalar_max_rel_all_entries": 0.0005838518611856433,
+  "fd_vs_analytic_scalar_max_rel_diagonal": 0.0003250413091879226,
+  "fd_eps": 0.0001,
+  "parity_residual_scalar": 0.0,
+  "fullflip_l1_scalar": 0.2006397673500461,
+  "parity_residual_vec_x": 4.435599426452769e-16,
+  "fullflip_l1_vec_x": 0.16277005669925623,
+  "parity_residual_vec_iso": 1.6187990313788261e-16,
+  "fullflip_l1_vec_iso": 0.1597414136348435,
+  "kernel_l1_scalar_vs_vec_x_NA0.8": 0.0898356710071439,
+  "strehl_vec_x_NA0.8": 0.022642735400743186,
+  "kernel_l1_scalar_vs_vec_x_NA1.2": 0.2097682465134172,
+  "strehl_vec_x_NA1.2": 0.04693093246332475,
+  "kernel_l1_scalar_vs_vec_iso_NA0.8": 0.12096472071233022,
+  "strehl_vec_iso_NA0.8": 0.02147960987978613,
+  "kernel_l1_scalar_vs_vec_iso_NA1.2": 0.22750747126437318,
+  "strehl_vec_iso_NA1.2": 0.0428644554969678
+}

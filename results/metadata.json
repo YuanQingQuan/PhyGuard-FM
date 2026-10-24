@@ -1,0 +1,31 @@
+{
+  "archived_outputs": {
+    "crb_cutoff_perframe_axis": {
+      "reproduces_current_source": false,
+      "noise_reseeded_per_frame": true
+    },
+    "crb_cutoff_totalbudget": {
+      "reproduces_current_source": false,
+      "noise_reseeded_per_frame": true
+    },
+    "init_diagnostic": {
+      "reproduces_current_source": false,
+      "noise_reseeded_per_frame": true
+    },
+    "dip_blind": {
+      "reproduces_current_source": false,
+      "noise_reseeded_per_frame": true
+    },
+    "phase_diversity_sweep": {
+      "reproduces_current_source": false,
+      "noise_reseeded_per_frame": true
+    },
+    "runtime_benchmark": {
+      "reproduces_current_source": false,
+      "noise_reseeded_per_frame": true
+    }
+  },
+  "current_source": {
+    "seed_once_per_stack": true
+  }
+}
